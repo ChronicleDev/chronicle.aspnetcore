@@ -18,7 +18,7 @@
       ]
     },
     "orderingRules": {
-      "blankLinesBetweenUsingGroups": "require",
+      "blankLinesBetweenUsingGroups": "omit",
       "usingDirectivesPlacement": "outsideNamespace"
     }
   }
