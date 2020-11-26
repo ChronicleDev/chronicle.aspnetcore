@@ -1,0 +1,25 @@
+{
+  "settings": {
+    "documentationRules": {
+      "documentExposedElements": false,
+      "documentInterfaces": false,
+      "documentInternalElements": false
+    },
+    "layoutRules": {
+      "newlineAtEndOfFile": "require"
+    },
+    "maintainabilityRules": {
+      "topLevelTypes": [
+        "class",
+        "delegate",
+        "enum",
+        "interface",
+        "struct"
+      ]
+    },
+    "orderingRules": {
+      "blankLinesBetweenUsingGroups": "require",
+      "usingDirectivesPlacement": "outsideNamespace"
+    }
+  }
+}
