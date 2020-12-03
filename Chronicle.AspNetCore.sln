@@ -12,6 +12,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		stylecop.json = stylecop.json
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{2A0CF9CC-5700-4CA7-ABB9-D59F6242F1DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chronicle.AspNetCore.UnitTests", "test\Chronicle.AspNetCore.UnitTests\Chronicle.AspNetCore.UnitTests.csproj", "{8BAAF332-6DF9-4842-AAD9-A9F095E09C5F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chronicle.AspNetCore.AsyncApi.Models", "src\Chronicle.AspNetCore.AsyncApi.Models\Chronicle.AspNetCore.AsyncApi.Models.csproj", "{02E567C7-AE4C-427F-920C-DBE6C11D91FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,12 +28,22 @@ Global
 		{1516B378-E40A-4FD3-B264-1D9E2725A96C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1516B378-E40A-4FD3-B264-1D9E2725A96C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1516B378-E40A-4FD3-B264-1D9E2725A96C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BAAF332-6DF9-4842-AAD9-A9F095E09C5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BAAF332-6DF9-4842-AAD9-A9F095E09C5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BAAF332-6DF9-4842-AAD9-A9F095E09C5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BAAF332-6DF9-4842-AAD9-A9F095E09C5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02E567C7-AE4C-427F-920C-DBE6C11D91FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E567C7-AE4C-427F-920C-DBE6C11D91FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E567C7-AE4C-427F-920C-DBE6C11D91FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E567C7-AE4C-427F-920C-DBE6C11D91FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1516B378-E40A-4FD3-B264-1D9E2725A96C} = {CC272491-03DB-4BA7-A94F-E9FC1EC24E7B}
+		{8BAAF332-6DF9-4842-AAD9-A9F095E09C5F} = {2A0CF9CC-5700-4CA7-ABB9-D59F6242F1DB}
+		{02E567C7-AE4C-427F-920C-DBE6C11D91FA} = {CC272491-03DB-4BA7-A94F-E9FC1EC24E7B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {04EE2A3D-44B0-41A4-BF76-C3F205EAF30E}
